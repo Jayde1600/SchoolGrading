@@ -30,8 +30,12 @@ java GradingSystem
 
 4.	Usage:
 a.	You will be prompted to enter the number of students.
+
 b.	For each student:
+
 i.	Enter the student's name and ID.
+
 ii.	Answer the five Java-related programming questions.
+
 iii.	At the end, each student's grade will be displayed.
 
