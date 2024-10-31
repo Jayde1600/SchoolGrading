@@ -11,24 +11,24 @@ a.	Handles invalid input errors and empty answer submissions with custom excepti
 3.	Interactive Console-Based Interface:
 a.	Allows users to input student data, answer questions, and receive meaningful feedback based on performance.
 
-Classes
+**Classes**
 •	Person: A superclass representing common attributes of a person (e.g., name and ID).
 •	Student: A subclass of Person with additional attributes and methods specific to students, including the ability to store and display grades.
 •	Teacher: Another subclass of Person that provides grading capabilities.
 •	InvalidInputException: A custom exception to handle specific invalid input cases, such as empty answers.
 •	GradingSystem: The main class responsible for executing the grading application, handling user input, displaying questions, and calculating grades.
 
-How to Run the Project
+**How to Run the Project**
 1.	Prerequisites:
 a.	Make sure Java is installed on your machine (Java JDK 8 or higher).
 2.	Compilation and Execution:
 a.	Open a terminal or command prompt in the project directory.
 b.	Compile the classes with:
 javac *.java
-
 c.	Run the application with:
 java GradingSystem
-3.	Usage:
+
+4.	Usage:
 a.	You will be prompted to enter the number of students.
 b.	For each student:
 i.	Enter the student's name and ID.
